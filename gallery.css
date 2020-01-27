@@ -220,8 +220,7 @@ code{
         height:15px;
         position: relative;
         z-index: 5;
-        display: flex;
-        justify-content: right;
+        right: 0;
     }
 
        

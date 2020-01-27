@@ -7,7 +7,6 @@ html{
 }
 body{
     background-color: black;
-    position: relative;
     z-index: 3;
 }
 nav{
@@ -206,6 +205,7 @@ button:hover{
 .logo-down{
     display: block;
     text-align: center;
+    margin: 3%;
 }
 
 footer{
@@ -309,7 +309,7 @@ code{
         margin-top: 15%;
         z-index: 3;
         position: absolute;
-        top: -50%;
+        top: -100%;
     }
    .menu > a{
         color: white;
@@ -325,7 +325,7 @@ code{
      
     }
     #toggle:checked + .menu {
-        transform: translateY(130%);
+        transform: translateY(100%);
         transition: 0.6s ease-in; 
     }
 
