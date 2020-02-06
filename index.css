@@ -25,6 +25,10 @@ nav > a{
     font-size: 1.5em;
     font-family: 'Indie Flower', cursive;
 }
+.link{
+    transform: scale(1);
+}
+
 .link:hover{
     transform: scale(1.2);
     transition: 0.4s;
@@ -158,6 +162,10 @@ h1{
     }
     .btn-about{
         display: none;
+    }
+
+    .link:hover{
+        transform: scale(1);
     }
 }
 
