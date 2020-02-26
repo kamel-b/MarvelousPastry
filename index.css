@@ -127,7 +127,7 @@ h1{
         background-color: black;
         height: 100vh;
         padding-top: 10%;
-        position: absolute;
+        position: fixed;
         top: -137%;
     }
     a{
